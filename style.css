@@ -20,13 +20,23 @@ body {
 }
 
 .question-head {
-    font-family: 'Montserrat'; /* Apply Sacramento font to the question */
-    font-size: 6vw; /* Set font size for the question */
+    font-family: 'Montserrat'; /* Apply Montserrat font to the question */
+    font-size: 4vw; /* Set font size for the question */
 }
 
 .question {
-    font-family: 'Montserrat'; /* Apply Sacramento font to the question */
-    font-size: 4vw; /* Set font size for the question */
+    font-family: 'Montserrat'; /* Apply Montserrat font to the question */
+    font-size: 3vw; /* Set font size for the question */
+}
+
+@media (max-width: 1200px) {
+    .question {
+        font-size: 4vw; /* Set font size for the question */
+    }
+
+    .question-head {
+        font-size: 6vw; /* Set font size for the question */
+    }
 }
 
 #options {
