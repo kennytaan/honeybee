@@ -29,9 +29,30 @@ body {
     font-size: 3vw; /* Set font size for the question */
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 2000px) {
     .question {
+        font-size: 2vw; /* Set font size for the question */
+    }
+
+    .question-head {
+        font-size: 3vw; /* Set font size for the question */
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .question {
+        font-size: 3vw; /* Set font size for the question */
+    }
+
+    .question-head {
         font-size: 4vw; /* Set font size for the question */
+    }
+}
+
+@media (max-width: 900px) {
+    .question {
+        font-size: 5vw; /* Set font size for the question */
     }
 
     .question-head {
